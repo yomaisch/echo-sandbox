@@ -1,6 +1,6 @@
-package internal
+package di
 
-import "github.com/yomaisch/echo-sandbox/controller"
+import "echo-sandbox/controller"
 
 func InjectUserController() *controller.UserController {
 	return controller.NewUserController()

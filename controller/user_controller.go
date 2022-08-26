@@ -13,7 +13,7 @@ func NewUserController() *UserController {
 	return &UserController{}
 }
 
-func (uc *UserController) getUser(c echo.Context) error {
+func (uc *UserController) GetUser(c echo.Context) error {
 	user := new(User)
 	if err := c.Bind(user); err != nil {
 		return err
