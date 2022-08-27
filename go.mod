@@ -1,4 +1,4 @@
-module echo-sandbox
+module github.com/yomaisch/echo-sandbox
 
 go 1.19
 

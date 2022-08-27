@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"echo-sandbox/di"
+	"github.com/yomaisch/echo-sandbox/di"
 )
 
 func main() {
